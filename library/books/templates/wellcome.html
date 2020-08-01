@@ -1,0 +1,33 @@
+<html>
+   {% extends 'base.html' %}
+   {% block content %}
+   <head>
+      <title>welcome</title>
+      <style>
+         h1 {
+            font-size: 55px;
+            text-align: center ;
+            text-transform: capitalize;
+         }
+         body {
+            background-color: bisque;
+         }
+         h3 {
+            text-align: center;
+         }
+      </style>
+   </head>
+   <body>
+      <fieldset><h1>well come to my site</h1></fieldset>
+      
+      <h2>Pages link :</h2>
+      <h3><a href="{% url 'say.html' %}">1</a></h3>
+      <h3><a href="">home</a></h3>
+      <h3><a href="">home</a></h3>
+      <h3><a href="">home</a></h3>
+      <h3><a href="">home</a></h3>
+      <h3><a href="">home</a></h3>
+      <h3><a href="">home</a></h3>
+
+   </body>
+</html>
